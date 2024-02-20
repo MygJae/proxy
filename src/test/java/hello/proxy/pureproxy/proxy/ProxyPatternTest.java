@@ -5,6 +5,7 @@ import hello.proxy.pureproxy.proxy.code.ProxyPatternClient;
 import hello.proxy.pureproxy.proxy.code.RealSubject;
 import org.junit.jupiter.api.Test;
 
+//프록시 패턴은 대른 개체에 대한 접근 제어
 public class ProxyPatternTest {
 
     @Test

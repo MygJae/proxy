@@ -17,10 +17,11 @@ import org.springframework.context.annotation.Import;
 //@Import(InterfaceProxyConfig.class)
 //@Import(DynamicProxyBasicConfig.class)
 //@Import({DynamicProxyFilterConfig.class, AppV2Config.class})
-//@Import({ProxyFactoryConfigV1.class, AppV2Config.class})
+@Import({ProxyFactoryConfigV1.class, AppV2Config.class})
 //@Import(ProxyFactoryConfigV1.class)
-@Import(ProxyFactoryConfigV2.class)
+//@Import(ProxyFactoryConfigV2.class)
 @SpringBootApplication(scanBasePackages = "hello.proxy.app")
+//@SpringBootApplication(scanBasePackages = "hello.proxy.config")
 public class ProxyApplication {
 
 	public static void main(String[] args) {

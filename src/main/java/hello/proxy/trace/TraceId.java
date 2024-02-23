@@ -2,6 +2,7 @@ package hello.proxy.trace;
 
 import java.util.UUID;
 
+
 public class TraceId {
 
     private String id;
